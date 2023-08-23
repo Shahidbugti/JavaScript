@@ -6,3 +6,7 @@ let class2 = 25;
 
 const name =  "shahid";
 console.log(name);
+
+// camel case 
+const firstName = "shahid";
+const lastName = "bugti";
