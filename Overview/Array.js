@@ -1,6 +1,6 @@
 //Array=>is an obect that can store multiple values at once 
 
-//[]=>these are called array litral
+//[]=>these are called array literal
 
 const listUser = ["Shahid","Zahid","Irfan","Noman","Awais","Saad"];
 console.log(listUser);
