@@ -15,7 +15,8 @@ for (let name of names){
     if(name === "Irfan"){
     break;
 }
-console.log(name);
+console.log(name);//This will brak when name === Irfan 
+                  //output will be shahid and zahid .
 }
 
 //ForEach loops
