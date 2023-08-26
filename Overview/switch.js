@@ -1,13 +1,13 @@
-// const text = "banana";
-// switch(text){
-//     case "banana":
-//             console.log("this is banana");
-// break;
-//     case "Apple":
-//         console.log("this is Apple");  
-// }
+const text = "banana";
+switch(text){
+    case "banana":
+            console.log("this is banana");
+break;
+    case "Apple":
+        console.log("this is Apple");  
+}
 
-
+//Practice game
 const userInput = prompt("Enter your favorite fruit");
 const fruit = userInput.toLocaleLowerCase();
 switch (fruit) {
