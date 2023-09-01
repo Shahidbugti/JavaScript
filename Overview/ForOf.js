@@ -6,10 +6,10 @@
 
 const names = ["Shahid", "Zahid", "Irfan", "Noman", "Awais", "Saad"];
 
-// for (let name of names) {
-//     console.log(names.indexOf(name)); // Print the index of the current name in the array
-//     console.log(name); // Print the current name
-// }
+for (let name of names) {
+    console.log(names.indexOf(name)); // Print the index of the current name in the array
+    console.log(name); // Print the current name
+}
 
 for (let name of names){
     if(name === "Irfan"){
@@ -20,6 +20,6 @@ console.log(name);//This will brak when name === Irfan
 }
 
 //ForEach loops
-// names.forEach(function(name,index){
-//     console.log(name ,index)
-// })
+names.forEach(function(name,index){
+    console.log(name ,index)
+})
