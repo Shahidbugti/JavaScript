@@ -1,6 +1,7 @@
 .special{
     font-size: 50px;
     color: blue;
+    transform: rotate(360deg);
 }
 .main-title{
     transition: all 0.5s linear;
