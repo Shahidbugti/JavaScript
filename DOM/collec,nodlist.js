@@ -13,21 +13,21 @@
 //Biggest diffrence between HTML COLLECTION and NODELIST is that html collection can only hold "node elements" while node list can hold many other thing such as; text e.t.c;
 
 
-// const collectionItems = document.getElementsByClassName("item");
-// const nodeItems = document.querySelectorAll("#todo-list");
-// console.log(collectionItems,nodeItems);
-// nodeItems.forEach(item => {
-//   console.log(item.childNodes);
-// });
+const collectionItems = document.getElementsByClassName("item");
+const nodeItems = document.querySelectorAll("#todo-list");
+console.log(collectionItems,nodeItems);
+nodeItems.forEach(item => {
+  console.log(item.childNodes);
+});
 
 //OR THIS WAY
+const collectionItem = document.getElementsByClassName("item");
+const nodeItem = document.querySelector("#todo-list");
+console.log(nodeItem.childNodes);
 
-// const collectionItem = document.getElementsByClassName("item");
-// const nodeItem = document.querySelector("#todo-list");
-// console.log(nodeItem.childNodes);
 
 //Even using querySelector i can access Element Nodes 
-// console.log(nodeItem.children);
+console.log(nodeItem.children);
 
 
 // LOOPING
