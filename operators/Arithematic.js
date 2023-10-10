@@ -55,3 +55,12 @@ x++;
 // Place the operator before the variable (prefix)
 ++x;
 
+// 8-) DECREMENT OPERATORS
+let t = 5;
+
+t--;
+
+console.log(x); //4
+
+
+
