@@ -25,4 +25,4 @@ nobeGases[5] = 'Rn';
 console.log(nobeGases); //Appended a fifth value "Rn";
 
 //"LENGTH" property
-console.log(nobeGases.length);
+console.log(nobleGase.length);
