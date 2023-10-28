@@ -1,73 +1,37 @@
-//DEFFINATION
-//FUNCTIONS ===> A function is a block of code that encapsulates one isolated, self-contained behavior for the computer to perform.
-
-//Why we need a function
-// 1-)Code Reusability: Functions allow you to encapsulate a block of code and reuse it multiple times in your program.
+//Function ===> Functions are block of code encapsulates one isolated.
 
 
-const viratKohli = {
-    matches: 254,
-    runs: 12169,
-    centuries: 43,
-    halfCenturies: 62,
-    highestScore: 183,
-    battingAverage: 59.07,
-    battingStrikeRate: 93.17,
-    hundreds: 43,
-    fifties: 62,
-    notOuts: 39,
-    ballsFaced: 13049,
-    fours: 1124,
-    sixes: 247,
-    wickets: 4,
-    bowlingAverage: 166.75,
-    economyRate: 5.09,
-    bestBowlingFigures: "1/15",
-  };
-  
-  const babarAzam = {
-    matches: 80,
-    runs: 3808,
-    centuries: 13,
-    halfCenturies: 17,
-    highestScore: 125,
-    battingAverage: 56.57,
-    battingStrikeRate: 87.11,
-    hundreds: 13,
-    fifties: 17,
-    notOuts: 10,
-    ballsFaced: 4364,
-    fours: 355,
-    sixes: 23,
-    wickets: 6,
-    bowlingAverage: 50.83,
-    economyRate: 5.23,
-    bestBowlingFigures: "1/15",
-  };
-  
-  const kaneWilliamson = {
-    matches: 156,
-    runs: 6173,
-    centuries: 13,
-    halfCenturies: 41,
-    highestScore: 148,
-    battingAverage: 47.48,
-    battingStrikeRate: 80.37,
-    hundreds: 13,
-    fifties: 41,
-    notOuts: 32,
-    ballsFaced: 7673,
-    fours: 546,
-    sixes: 45,
-    wickets: 34,
-    bowlingAverage: 38.35,
-    economyRate: 5.08,
-    bestBowlingFigures: "3/22",
-  };
-  
-  
-  favouriteBatsman = prompt("Enter your favourite player");
-  
-  if (favouriteBatsman == "Virat"){
-    document.write(viratKohli);
-  };
+//DECLARING A FUNCTION
+function name(paramer1,paramer2) {
+  // the code statements to be executed
+};
+
+
+// INVOCATION OF FUNCTION ===> When we declare a function and than call it  that calling of function is called "invocation";
+greeting();
+
+
+//Diffrence between PERAMETER and ARGUMENT
+// PERAMETRER ===> It is a veriable used in functions to recieve nd work with values that are passed to function when it i called
+function add(a, b) {
+  return a + b;
+}//"a" and "b" are perameters
+
+//ARGUMENT ===>  an "argument" refers to a value that is passed to a function when the function os called.
+function add(a, b) {
+  return a + b;
+}
+add(2 , 3); //2 and 3 are arguments
+
+
+//HIGHER ORDER FUNCTIONS AND CALLBACK FUNCTIONS
+// HIGHER OREDER FUNCTION ===> Function that take one or more than one function as argument or return a function as their result
+function higherOrderFunction(func){
+  console.log('I am higher order function')
+  func()
+}
+
+higherOrderFunction(callbackFunction);
+ 
+//CALLBACK FUNCION ===> A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some sort action.
+
