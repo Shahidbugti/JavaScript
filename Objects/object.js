@@ -46,3 +46,17 @@ const student = {
   // Now the 'person' object has a new property 'email'
   console.log(person);
   
+
+
+  //OBJECT CONSTRUCTOR FUNCTION IN JAVASCRIPT
+  function Profile(name, age, nationality) { 
+    this.name = name; 
+    this.age = age; 
+    this.nationality = nationality; 
+    this.bio = function () { 
+        console.log(`My name is ${this.name}. I'm ${this.age} years old. I'm from ${this.nationality}`) 
+    } 
+};
+
+const oladele = new Profile("Oladele", 50, "Nigeria" );
+console.log(oladele.bio()); //My name is Oladele. I'm 50 years old. I'm from Nigeria
