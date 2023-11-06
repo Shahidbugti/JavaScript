@@ -46,6 +46,7 @@ i,svg{
     align-items: center;
     justify-content: center;
 }
+
 .hihat-track,
 .snare-track,
 .kick-track{
@@ -67,6 +68,7 @@ i,svg{
     align-items: center;
     flex: 1;
     margin: 0rem 2rem;
+    flex-direction: row;
 }
 .controls button{
     padding: 1rem;
@@ -87,6 +89,7 @@ i,svg{
 .pad{
     transition: all 0.5 ease;
 }
+
 .play{
     padding: 1rem 2rem;
     font-size: 1.5rem;

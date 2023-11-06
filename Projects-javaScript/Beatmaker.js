@@ -152,6 +152,7 @@ updateTempo(e) {
     // Call the start method to restart playback
     this.start();
   }
+
 }
 
 
@@ -194,4 +195,3 @@ myDrumKit.tempoSlider.addEventListener("input", function(e){
 myDrumKit.tempoSlider.addEventListener("change", function(e){
   myDrumKit.updateTempo(e);
 })
-
