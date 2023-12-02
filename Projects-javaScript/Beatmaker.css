@@ -140,3 +140,39 @@ border-radius: 1rem;
 transform: scale(1.2);
   }
 }
+
+
+@media screen and (max-width : 600px){
+    html{
+        font-size: 50%;
+    }
+    .kick-pad,.snare-pad,.hihat-pad{
+        width: 3rem;
+        height: 3rem;
+        margin: 0.5rem 0.3rem;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+    .sequencer{
+        min-height: 50vh;
+
+    }
+    .kick{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .snare{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hihat{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .kick-track,
+    .snare-track,
+    .hihat-track{
+        flex-wrap: wrap;
+    }
+}
