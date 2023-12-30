@@ -1,5 +1,5 @@
 //OBJECTS ===> An object is a data type that can take in collections of key-value pairs.
-//Content of an obkect can consist of variables or  functions or both;
+//Content of an object can consist of variables or  functions or both;
 //Those variables are called properties while Functions are called Methods
 const object1 = {
 user: "alex",
