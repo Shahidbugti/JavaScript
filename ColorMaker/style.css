@@ -1,0 +1,147 @@
+/* General Styling */
+body {
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f5f5f5;
+    min-height: 100vh;
+}
+
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+    gap: 1.5rem;
+}
+
+.color {
+    width: 250px;
+    height: 350px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.color:hover {
+    transform: scale(1.05);
+}
+
+/* Header */
+.color h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/* Controls */
+.control {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.control button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.control button:hover {
+    color: #222;
+}
+
+/* Sliders */
+.sliders {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.sliders.open {
+    display: flex;
+}
+
+.sliders span {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Buttons */
+button {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Panel Styling */
+.panel {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.panel div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel button {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #555;
+}
+
+.panel button:hover {
+    color: #222;
+}
+
+/* Popups */
+.copy-container, .save-container, .library-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.copy-popup, .save-popup, .library-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button.close-save, button.close-library {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #555;
+}
